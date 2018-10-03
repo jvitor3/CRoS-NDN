@@ -64,4 +64,4 @@ Rscript RLibsInstall.r
 
 SIMULATION
 
-Use the python scripts to run simulatinons.
+Use the python scripts to run simulations.
