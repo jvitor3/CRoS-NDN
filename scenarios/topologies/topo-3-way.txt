@@ -1,0 +1,34 @@
+# topo-3-node.txt
+
+router
+
+# node  comment     yPos    xPos	mpi-partition
+Src1   NA        3       0	0
+Rtr0   NA        3       3	1
+Rtr1   NA        1       5	0
+Rtr2   NA        3       5	1
+Rtr3   NA        5       5	0
+Rtr4   NA        4       7	1
+Rtr5   NA        5       7	0
+Rtr6   NA        5       9	1
+Rtr7   NA        3       11	0
+Prd1   NA        1       13	1
+Ctr1   NA        5       13	0
+
+link
+
+# srcNode   dstNode     bandwidth   metric  delay   queue
+Src1        Rtr0        1000Mbps      1        10ms    500
+Rtr0        Rtr1        1000Mbps      1        10ms    500
+Rtr0        Rtr2        1000Mbps      1        10ms    500
+Rtr0        Rtr3        1000Mbps      1        10ms    500
+Rtr2        Rtr4        1000Mbps      1        10ms    500
+Rtr3        Rtr5        1000Mbps      1        10ms    500
+Rtr5        Rtr6        1000Mbps      1        10ms    500
+Rtr1        Rtr7        1000Mbps      1        10ms    500
+Rtr4        Rtr7        1000Mbps      1        10ms    500
+Rtr6        Rtr7        1000Mbps      1        10ms    500
+Rtr7        Prd1        1000Mbps      1        10ms    500
+Rtr7        Ctr1        1000Mbps      1        10ms    500
+
+
