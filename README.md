@@ -4,6 +4,7 @@ This is the simulation code developed in the CRoS-NDN research.
 CRoS-NDN - Controller-based Routing Scheme for Named-Data Networking
 
 References:
+
 Torres, J.V., Boutaba, R., and Duarte, O.C.M.B. - "An Autonomous and Efficient Controller-based Routing Scheme for Networking Named-Data Mobility", in Computer Communications 2016. 
 English, A4 size, 12 p.
 http://www.gta.ufrj.br/ftp/gta/TechReports/TBD16.pdf
@@ -13,7 +14,7 @@ English, A4 size, 14 p.
 http://www.gta.ufrj.br/ftp/gta/TechReports/TBD16a.pdf
 
 Doctor of Science Thesis
-Author - Jo„o Vitor Torres
+Author - Jo√£o Vitor Torres
 Title - "An Autonomous and Efficient Controller-based Routing Scheme for Networking Named-data Mobility"
 Advisor -Otto Carlos Muniz Bandeira Duarte
 COPPE/PEE/UFRJ - June 2016
